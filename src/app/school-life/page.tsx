@@ -68,8 +68,8 @@ export default function SchoolLifePage() {
             className="relative w-full h-[300px] md:h-[400px] rounded-3xl overflow-hidden shadow-2xl mb-12"
           >
             <Image
-              src="/HillsideWays/Hillside Ways Nursery classes.jpeg"
-              alt="Hillside Ways Nursery and Primary School classroom facilities"
+              src="/HillsideWays/toddlershillside ways.jpg"
+              alt="Hillside Ways Nursery and Primary School nursery classroom facilities"
               fill
               className="object-cover"
               sizes="100vw"

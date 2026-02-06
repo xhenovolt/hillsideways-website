@@ -86,7 +86,7 @@ export default function AboutPage() {
 						>
 							<div className="relative w-full h-[400px] rounded-3xl overflow-hidden shadow-2xl">
 								<Image
-									src="/HillsideWays/Hillside Ways Admin block.jpeg"
+									src="/HillsideWays/hillsideways main.jpg"
 									alt="Hillside Ways Nursery and Primary School campus"
 									fill
 									className="object-cover"

@@ -7,28 +7,52 @@ import Footer from "@/components/Footer";
 
 const galleryImages = [
   {
-    src: "/HillsideWays/Hillside Ways compound.jpeg",
+    src: "/HillsideWays/hillsideways main.jpg",
+    alt: "Hillside Ways Nursery and Primary School main entrance and campus view",
+    title: "Main Campus",
+    category: "Campus"
+  },
+  {
+    src: "/HillsideWays/Hillside ways comppund.jpg",
     alt: "Hillside Ways Nursery and Primary School compound with school buildings",
     title: "School Compound",
     category: "Facilities"
   },
   {
-    src: "/HillsideWays/Hillside Ways Admin block.jpeg",
-    alt: "Hillside Ways Nursery and Primary School Admin block building showcasing school infrastructure",
-    title: "Admin Block",
-    category: "Infrastructure"
+    src: "/HillsideWays/Hillsideways area.jpg",
+    alt: "Hillside Ways Nursery and Primary School surrounding area",
+    title: "School Area",
+    category: "Location"
   },
   {
-    src: "/HillsideWays/Hillside Ways class block Ultra wide.jpeg",
-    alt: "Hillside Ways Nursery and Primary School classroom block with modern facilities",
-    title: "Classroom Block",
-    category: "Academic Facilities"
+    src: "/HillsideWays/Hillsideways class session.jpg",
+    alt: "Hillside Ways Nursery and Primary School classroom session with students learning",
+    title: "Class Session",
+    category: "Academic"
   },
   {
-    src: "/HillsideWays/Hillside Ways Nursery classes.jpeg",
-    alt: "Hillside Ways Nursery and Primary School Nursery classroom facilities for early childhood education",
-    title: "Nursery Classes",
+    src: "/HillsideWays/Hillside ways learners.jpg",
+    alt: "Hillside Ways Nursery and Primary School learners in classroom",
+    title: "Our Learners",
+    category: "Students"
+  },
+  {
+    src: "/HillsideWays/toddlershillside ways.jpg",
+    alt: "Hillside Ways Nursery and Primary School toddlers and young learners",
+    title: "Toddlers",
     category: "Early Education"
+  },
+  {
+    src: "/HillsideWays/Hillsideways staff.jpg",
+    alt: "Hillside Ways Nursery and Primary School dedicated staff members",
+    title: "Our Staff",
+    category: "Team"
+  },
+  {
+    src: "/HillsideWays/Hillsideways  cover.jpg",
+    alt: "Hillside Ways Nursery and Primary School cover view",
+    title: "School Cover",
+    category: "Campus"
   }
 ];
 
@@ -81,6 +105,27 @@ export default function GalleryPage() {
               </motion.div>
             ))}
           </div>
+
+          {/* TikTok Video Section */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-12"
+          >
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 text-center">
+              Latest: Learners Dancing to "Long Time Ago" by Teacher Hassan
+            </h2>
+            <div className="flex justify-center">
+              <iframe
+                src="https://www.tiktok.com/embed/7480706123801054469"
+                className="w-full max-w-[400px] h-[700px] rounded-2xl border-0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="TikTok Video - Learners Dancing"
+              />
+            </div>
+          </motion.div>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}

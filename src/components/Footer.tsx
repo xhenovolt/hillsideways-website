@@ -13,9 +13,9 @@ export default function Footer() {
       { name: "Contact", href: "/location" }
     ],
     "Academic": [
-      { name: "Qur'an Memorization", href: "/academics#quran" },
-      { name: "Islamic Studies", href: "/academics#islamic" },
-      { name: "Primary Education", href: "/academics#primary" },
+      { name: "Nursery Section", href: "/academics#nursery" },
+      { name: "Primary Section", href: "/academics#primary" },
+      { name: "Curriculum", href: "/academics#curriculum" },
       { name: "School Life", href: "/school-life" }
     ],
     "Resources": [
@@ -46,25 +46,17 @@ export default function Footer() {
               transition={{ duration: 0.6 }}
             >
               <h3 className="text-2xl font-bold bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent mb-4">
-                Al Hanan Education Centre
+                Hillside Ways Nursery and Primary School
               </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                A premium Muslim school founded in 2019, dedicated to shaping minds through Qur'anic mastery and academic excellence. Registered with the Ministry of Education and Sports, Uganda.
+                A quality nursery and primary school located on Kaliro Road, Iganga Municipality. Dedicated to providing excellent academic foundation for young learners.
               </p>
               
               {/* Contact Info */}
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
                   <MapPin className="w-5 h-5 text-emerald-600" />
-                  <span className="text-gray-600 dark:text-gray-300">Bulubandi, Nakigo, Iganga, Uganda</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <MapPin className="w-5 h-5 text-emerald-600" />
-                  <span className="text-sm text-gray-600 dark:text-gray-300">Bulubandi–Kiboyo Road</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <MapPin className="w-5 h-5 text-emerald-600" />
-                  <span className="text-sm text-gray-600 dark:text-gray-300">0°35'21.5"N 33°30'03.7"E</span>
+                  <span className="text-gray-600 dark:text-gray-300">Kaliro Road, Iganga Municipality, Uganda</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-emerald-600" />
@@ -74,8 +66,8 @@ export default function Footer() {
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-emerald-600" />
-                  <a href="mailto:info@alhanan.ug" className="text-gray-600 dark:text-gray-300 hover:text-emerald-600 transition-colors">
-                    info@alhanan.ug
+                  <a href="mailto:info@hillsideways.ug" className="text-gray-600 dark:text-gray-300 hover:text-emerald-600 transition-colors">
+                    info@hillsideways.ug
                   </a>
                 </div>
               </div>
@@ -147,7 +139,7 @@ export default function Footer() {
         >
           <div className="text-gray-600 dark:text-gray-400 mb-4 md:mb-0 text-sm">
             <span className="block">
-              © {new Date().getFullYear()} Al Hanan Education Centre. Registered with the Ministry of Education and Sports, Uganda.
+              © {new Date().getFullYear()} Hillside Ways Nursery and Primary School. Providing quality education in Iganga Municipality.
             </span>
             <span className="block mt-1 text-xs text-gray-500 dark:text-gray-500 italic">
               Designed with love by{' '}

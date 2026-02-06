@@ -9,23 +9,23 @@ import Footer from "@/components/Footer";
 const values = [
 	{
 		icon: <Heart className="w-8 h-8" />,
-		title: "Islamic Excellence",
-		description: "Every aspect of our school is grounded in Islamic principles, values, and a deep commitment to Qur'anic mastery.",
+		title: "Quality Education",
+		description: "We are committed to providing excellent education that prepares students for success in secondary school and beyond.",
 	},
 	{
 		icon: <BookOpen className="w-8 h-8" />,
-		title: "Academic Rigor",
-		description: "We deliver world-class academics that prepare learners for success in secondary education and beyond.",
+		title: "Academic Excellence",
+		description: "Our rigorous curriculum and dedicated teachers ensure students achieve their full academic potential.",
 	},
 	{
 		icon: <Users className="w-8 h-8" />,
 		title: "Holistic Development",
-		description: "We shape disciplined, excellent individuals with strong character, faith, and leadership capabilities.",
+		description: "We develop confident, disciplined students with strong character and life skills.",
 	},
 	{
 		icon: <Sparkles className="w-8 h-8" />,
-		title: "Innovation in Education",
-		description: "Futuristic approaches combined with traditional Islamic values create a unique learning environment.",
+		title: "Nurturing Environment",
+		description: "Our supportive environment helps children grow academically, socially, and emotionally.",
 	}
 ];
 
@@ -44,10 +44,10 @@ export default function AboutPage() {
 						className="text-center mb-12"
 					>
 						<h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-emerald-600 via-blue-600 to-cyan-600 bg-clip-text text-transparent mb-6">
-							About Al Hanan Education Centre
+							About Hillside Ways Nursery and Primary School
 						</h1>
 						<p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-							Shaping minds, nurturing faith, building the future—one learner at a time
+							Building bright futures through quality education
 						</p>
 					</motion.div>
 				</div>
@@ -67,13 +67,13 @@ export default function AboutPage() {
 								Our Story
 							</h2>
 							<p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
-								Al Hanan Education Centre was founded in 2019 by Ummul Qura Cultural and Development Foundation with a singular vision: to create a premium Muslim school in Uganda that would combine rigorous academics with comprehensive Qur'anic memorization (Hifdh).
+								Hillside Ways Nursery and Primary School is a quality educational institution located on Kaliro Road in Iganga Municipality. We are dedicated to providing excellent education for young learners from nursery to primary school level.
 							</p>
 							<p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
-								Fully registered and recognized by the Ministry of Education and Sports, Uganda, Al Hanan has grown into a beacon of Islamic education excellence in East Africa. Our learners are not ordinary—they embody discipline, academic excellence, unwavering Islamic faith, and authentic leadership.
+								Our mission is to create a nurturing learning environment where children develop academically, socially, and emotionally. We believe in building strong foundations that will serve our students throughout their educational journey.
 							</p>
 							<p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-								Located in Bulubandi, Nakigo, Iganga District, we provide a conducive learning environment where every learner completes Primary Seven having both memorized the entire Holy Qur'an and achieved outstanding academic performance.
+								Located conveniently on Kaliro Road in Iganga Municipality, we provide quality education that prepares students for success in secondary school and beyond.
 							</p>
 						</motion.div>
 
@@ -86,15 +86,15 @@ export default function AboutPage() {
 						>
 							<div className="relative w-full h-[400px] rounded-3xl overflow-hidden shadow-2xl">
 								<Image
-									src="/Alhanan/Alhanan Admin block.jpeg"
-									alt="Al Hanan Education Centre Admin block building showcasing school infrastructure"
+									src="/HillsideWays/Hillside Ways Admin block.jpeg"
+									alt="Hillside Ways Nursery and Primary School campus"
 									fill
 									className="object-cover"
 									sizes="(max-width: 768px) 100vw, 50vw"
 									quality={85}
 								/>
 								<div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-emerald-900/80 to-transparent p-6">
-									<p className="text-white font-semibold text-lg">Established 2019</p>
+									<p className="text-white font-semibold text-lg">Quality Education in Iganga</p>
 								</div>
 							</div>
 						</motion.div>
@@ -118,7 +118,7 @@ export default function AboutPage() {
 								Our Mission
 							</h3>
 							<p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-								To provide comprehensive Islamic education combined with rigorous academics, shaping learners into leaders of character, faith, and intellectual excellence who will transform their communities and the world.
+								To provide quality education that nurtures young minds, builds strong foundations, and prepares students to become confident, successful individuals who contribute positively to their communities.
 							</p>
 						</motion.div>
 
@@ -134,7 +134,7 @@ export default function AboutPage() {
 								Our Vision
 							</h3>
 							<p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-								To be a leading African Muslim school producing well-rounded, disciplined, excellent learners who are rooted in Islamic faith and academic excellence, setting the standard for premium Islamic education across East Africa.
+								To be a leading nursery and primary school in Iganga and the surrounding region, recognized for academic excellence, character development, and producing well-rounded students.
 							</p>
 						</motion.div>
 					</div>
@@ -183,7 +183,7 @@ export default function AboutPage() {
 				</div>
 			</section>
 
-			{/* Why Al Hanan Learners Are Different */}
+			{/* What Makes Our Students Different */}
 			<section className="py-12 md:py-20 bg-gradient-to-r from-emerald-600 via-blue-600 to-cyan-500">
 				<div className="max-w-7xl mx-auto px-4 sm:px-6">
 					<motion.div
@@ -193,24 +193,24 @@ export default function AboutPage() {
 						className="text-center mb-12"
 					>
 						<h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-							Al Hanan Learners Are Different
+							What Makes Our Students Different
 						</h2>
 						<p className="text-white/90 text-lg">
-							Shaped by discipline, excellence, and unshakeable Islamic faith
+							Shaped by quality education and strong character
 						</p>
 					</motion.div>
 
 					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 						{[
-							"Complete Qur'anic memorization",
-							"Exceptional academic performance",
-							"Strong Islamic faith and conviction",
-							"Disciplined character and conduct",
-							"Leadership and vision",
-							"Fluency in English and Arabic",
-							"Critical thinking and problem-solving",
-							"Community awareness and service",
-							"Preparation for secondary excellence"
+							"Strong academic foundation",
+							"Critical thinking skills",
+							"Confidence and self-esteem",
+							"Discipline and respect",
+							"Good communication skills",
+							"Teamwork and cooperation",
+							"Creativity and innovation",
+							"Character and integrity",
+							"Preparation for secondary school"
 						].map((characteristic, idx) => (
 							<motion.div
 								key={idx}
@@ -238,10 +238,10 @@ export default function AboutPage() {
 						className="bg-white/80 dark:bg-gray-800/80 rounded-3xl p-8 md:p-12 text-center border border-emerald-200 dark:border-emerald-700/50"
 					>
 						<h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-							Ready to Join Al Hanan?
+							Ready to Join Hillside Ways?
 						</h2>
 						<p className="text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
-							Begin your child's journey of academic excellence and Qur'anic mastery today.
+							Give your child the best start in education. Enroll today and watch them thrive.
 						</p>
 						<div className="flex flex-col sm:flex-row gap-4 justify-center">
 							<a href="/admissions" className="inline-flex items-center justify-center gap-2 px-8 py-3 bg-emerald-600 text-white rounded-lg font-semibold hover:bg-emerald-700 transition">

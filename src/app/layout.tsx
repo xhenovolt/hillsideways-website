@@ -11,28 +11,28 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Al Hanan Education Centre | Premium Muslim School in Uganda",
+  title: "Hillside Ways Nursery and Primary School | Quality Education in Iganga",
   description:
-    "Al Hanan Education Centre offers premium Islamic education combining Qur'anic memorization (Hifdh) with rigorous academics in Iganga, Uganda. Founded 2019 by Ummul Qura Foundation, registered with Ministry of Education.",
-  keywords: "Islamic school Uganda, Qur'an memorization, Hifdh school, primary education, Muslim school Iganga, Al Hanan Education Centre",
-  authors: [{ name: "Al Hanan Education Centre" }],
-  creator: "Al Hanan Education Centre",
-  metadataBase: new URL("https://alhanan.ug"),
+    "Hillside Ways Nursery and Primary School offers quality education for nursery and primary students in Iganga Municipality, Uganda. Located on Kaliro Road, we provide excellent academic foundation for young learners.",
+  keywords: "primary school Uganda, nursery education, Iganga school, Kaliro Road school, quality education Uganda, primary education",
+  authors: [{ name: "Hillside Ways Nursery and Primary School" }],
+  creator: "Hillside Ways Nursery and Primary School",
+  metadataBase: new URL("https://hillsideways.ug"),
   alternates: {
-    canonical: "https://alhanan.ug",
+    canonical: "https://hillsideways.ug",
   },
   openGraph: {
-    title: "Al Hanan Education Centre | Premium Muslim School",
-    description: "Shaping minds, nurturing faith, building the future",
+    title: "Hillside Ways Nursery and Primary School | Quality Education",
+    description: "Building bright futures through quality education",
     type: "website",
     locale: "en_US",
-    siteName: "Al Hanan Education Centre",
-    url: "https://alhanan.ug",
+    siteName: "Hillside Ways Nursery and Primary School",
+    url: "https://hillsideways.ug",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Al Hanan Education Centre | Premium Muslim School",
-    description: "Shaping minds, nurturing faith, building the future",
+    title: "Hillside Ways Nursery and Primary School | Quality Education",
+    description: "Building bright futures through quality education",
   },
   robots: {
     index: true,

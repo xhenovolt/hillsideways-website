@@ -7,26 +7,26 @@ import Footer from "@/components/Footer";
 
 const galleryImages = [
   {
-    src: "/Alhanan/Alhanan compound.jpeg",
-    alt: "Al Hanan Education Centre compound with school buildings and mosque dome",
+    src: "/HillsideWays/Hillside Ways compound.jpeg",
+    alt: "Hillside Ways Nursery and Primary School compound with school buildings",
     title: "School Compound",
     category: "Facilities"
   },
   {
-    src: "/Alhanan/Alhanan Admin block.jpeg",
-    alt: "Al Hanan Education Centre Admin block building showcasing school infrastructure",
+    src: "/HillsideWays/Hillside Ways Admin block.jpeg",
+    alt: "Hillside Ways Nursery and Primary School Admin block building showcasing school infrastructure",
     title: "Admin Block",
     category: "Infrastructure"
   },
   {
-    src: "/Alhanan/Alhanan class bloack Ultra wide.jpeg",
-    alt: "Al Hanan Education Centre Ultra wide classroom block with modern facilities",
+    src: "/HillsideWays/Hillside Ways class block Ultra wide.jpeg",
+    alt: "Hillside Ways Nursery and Primary School classroom block with modern facilities",
     title: "Classroom Block",
     category: "Academic Facilities"
   },
   {
-    src: "/Alhanan/Alhanan Nursary classes.jpeg",
-    alt: "Al Hanan Education Centre Nursery classroom facilities for early childhood education",
+    src: "/HillsideWays/Hillside Ways Nursery classes.jpeg",
+    alt: "Hillside Ways Nursery and Primary School Nursery classroom facilities for early childhood education",
     title: "Nursery Classes",
     category: "Early Education"
   }
@@ -46,7 +46,7 @@ export default function GalleryPage() {
             className="text-center mb-16"
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-emerald-600 via-blue-600 to-cyan-600 bg-clip-text text-transparent mb-6">
-              Al Hanan Gallery
+              Hillside Ways Gallery
             </h1>
             <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
               Explore our world-class facilities and vibrant school life

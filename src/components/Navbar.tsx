@@ -50,9 +50,9 @@ export default function Navbar() {
       name: "Academics",
       href: "/academics",
       dropdown: [
-        { name: "Qur'an Memorization", href: "/academics#quran" },
-        { name: "Islamic Studies", href: "/academics#islamic" },
-        { name: "Primary Education", href: "/academics#primary" }
+        { name: "Nursery Section", href: "/academics#nursery" },
+        { name: "Primary Section", href: "/academics#primary" },
+        { name: "Curriculum", href: "/academics#curriculum" }
       ]
     },
     { name: "Admissions", href: "/admissions" },
@@ -78,10 +78,10 @@ export default function Navbar() {
           >
             <Link href="/" className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-gradient-to-br from-emerald-600 to-blue-600 rounded-xl flex items-center justify-center">
-                <span className="text-white font-bold text-xl">A</span>
+                <span className="text-white font-bold text-xl">H</span>
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent">
-                Al Hanan
+                Hillside Ways
               </span>
             </Link>
           </motion.div>

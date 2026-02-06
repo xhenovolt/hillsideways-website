@@ -11,115 +11,91 @@ import TeamSection from "../components/TeamSection";
 const features = [
 	{
 		icon: <Zap className="w-8 h-8" />,
-		title: "Qur'an Memorization",
-		description: "Comprehensive Qur'anic memorization program with expert guidance, structured curriculum, and proven success in developing Hafiz students.",
+		title: "Nursery Education",
+		description: "Comprehensive early childhood education program focusing on foundational skills, social development, and love for learning.",
 	},
 	{
 		icon: <Shield className="w-8 h-8" />,
-		title: "Islamic Excellence",
-		description: "Deep Islamic theology and religious studies integrated with faith-centered values, discipline, and character development.",
+		title: "Primary Excellence",
+		description: "Rigorous primary curriculum delivered by qualified teachers, ensuring students excel in all core subjects.",
 	},
 	{
 		icon: <Users className="w-8 h-8" />,
 		title: "Holistic Development",
-		description: "Learners are shaped into disciplined, excellent thinkers with strong Islamic identity and real-life leadership capabilities.",
+		description: "Students develop into confident, disciplined learners with strong academic foundation and life skills.",
 	},
 	{
 		icon: <Globe className="w-8 h-8" />,
-		title: "Academic Mastery",
-		description: "Full secular curriculum delivered with academic rigor, ensuring learners complete Primary Seven with exceptional performance.",
+		title: "Character Building",
+		description: "Emphasis on values, respect, and personal growth to prepare students for future success.",
 	},
 ];
 
 const testimonials = [
 	{
-		name: "Amina Hassan",
-		role: "Parent, Al Hanan Learner",
-		text: "&ldquo;My child has grown not just academically, but spiritually. The combination of Qur'anic memorization and excellent academics is unmatched.&rdquo;",
+		name: "Mary Nakiganda",
+		role: "Parent, Hillside Ways Student",
+		text: "My child has flourished at Hillside Ways. The teachers are caring and the curriculum is excellent.",
 		rating: 5,
 	},
 	{
-		name: "Dr. Muhammad Ssali",
-		role: "Educational Consultant",
-		text: "&ldquo;Al Hanan represents a new generation of African Muslim schools. The commitment to excellence in faith and academics is remarkable.&rdquo;",
+		name: "John Ssebaana",
+		role: "Education Consultant",
+		text: "Hillside Ways represents quality education in Iganga. The commitment to academic excellence is remarkable.",
 		rating: 5,
 	},
 	{
-		name: "Zainab Nakigudde",
+		name: "Sarah Namuyanja",
 		role: "Parent & Community Leader",
-		text: "&ldquo;Al Hanan learners are far different from ordinary learners. You can see the discipline, excellence, and faith in everything they do.&rdquo;",
+		text: "Hillside Ways students stand out for their discipline and academic performance. Highly recommended.",
 		rating: 5,
 	},
 	{
-		name: "Sheikh Abdirahman Ali",
-		role: "Islamic Scholar",
-		text: "&ldquo;A school that combines rigorous academic excellence with Qur'anic mastery—this is what African Islamic education should be.&rdquo;",
-		rating: 5,
-	},
-	{
-		name: "James Lwanga",
-		role: "Guardian, Al Hanan Learner",
-		text: "&ldquo;The holistic development approach ensures my ward is not just passing exams, but becoming a leader of character.&rdquo;",
-		rating: 5,
-	},
-	{
-		name: "Fatima Mayanja",
-		role: "Parent of Hafiz Graduate",
-		text: "&ldquo;Seeing my child complete the Qur'an memorization while maintaining academic excellence is a dream come true.&rdquo;",
-		rating: 5,
-	},
-	{
-		name: "Prof. Nakajjugo",
-		role: "Ministry of Education Official",
-		text: "&ldquo;Al Hanan exemplifies what registered, innovative schools should look like in Uganda—excellence in faith and academics.&rdquo;",
-		rating: 5,
-	},
-	{
-		name: "Ibrahim Musoke",
+		name: "David Mukisa",
 		role: "Parent & Business Owner",
-		text: "&ldquo;The values and discipline instilled at Al Hanan will shape my children for life. It's a premium investment in their future.&rdquo;",
+		text: "The values and education at Hillside Ways are excellent. It's a great investment in my child's future.",
 		rating: 5,
 	},
 	{
-		name: "Halima Nakato",
-		role: "Primary Seven Graduate, Al Hanan",
-		text: "&ldquo;I'm proud to have memorized the Qur'an and excelled in my academics. Al Hanan changed my life.&rdquo;",
+		name: "Grace Nabukeera",
+		role: "Primary Three Parent",
+		text: "My daughter loves going to school every day. The environment is nurturing and supportive.",
 		rating: 5,
 	},
 	{
-		name: "Karim Hassan",
-		role: "Parent & Education Advocate",
-		text: "&ldquo;In a world of ordinary schools, Al Hanan stands out. The teaching staff are among the most proficient in the country.&rdquo;",
+		name: "Robert Wanjala",
+		role: "Parent & Teacher",
+		text: "As an educator, I can say Hillside Ways has the best teaching methods in the region.",
 		rating: 5,
 	},
 ];
 
 const solutions = [
 	{
-		title: "Qur'an Memorization (Hifdh)",
-		description: "Students memorize and master the entire Holy Qur'an with expert guidance, completing their Hifdh by Primary Seven graduation.",
+		title: "Nursery Section",
+		description: "Early childhood education for ages 3-5, focusing on foundational skills, play-based learning, and social development.",
 		features: [
-			"Structured Memorization Curriculum",
-			"Expert Qur'anic Teachers",
-			"Daily Practice & Revision Sessions",
+			"Play-Based Learning",
+			"Social Skills Development",
+			"Basic Literacy & Numeracy",
 		],
 	},
 	{
-		title: "Islamic Studies",
-		description: "Deep theological knowledge, Islamic law, and religious principles integrated into daily learning to build faith-centered leaders.",
+		title: "Primary Section",
+		description: "Comprehensive primary education from Primary One to Seven, covering all core subjects with qualified teachers.",
 		features: [
-			"Islamic Theology & Jurisprudence",
-			"Character & Values Development",
-			"Islamic History & Civilization",
+			"English & Mathematics",
+			"Science & Social Studies",
+			"Creative Arts",
 		],
 	},
 	{
-		title: "Primary Education Excellence",
-		description: "Full secular curriculum delivered with academic rigor, English and Arabic proficiency, ensuring outstanding academic performance.",
+		title: "After-School Programs",
+		description: "Additional support and enrichment activities to help students reach their full potential.",
 		features: [
-			"English Language Mastery",
-			"Arabic Fluency",
-			"Mathematics & Science Excellence",
+			"Homework Support",
+			"Reading Club",
+			"Sports Activities",
 		],
 	},
 ];
@@ -134,8 +110,8 @@ export default function HomePage() {
 				{/* Hero Background Image */}
 				<div className="absolute inset-0 z-0">
 					<Image
-						src="/Alhanan/Alhanan compound.jpeg"
-						alt="Al Hanan Education Centre compound with school buildings and mosque dome"
+						src="/HillsideWays/Hillside Ways compound.jpeg"
+						alt="Hillside Ways Nursery and Primary School campus"
 						fill
 						priority
 						className="object-cover"
@@ -153,15 +129,15 @@ export default function HomePage() {
 						>
 							<h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-6">
 								<span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">
-									Shaping Minds,
+									Building Bright
 								</span>
 								<br />
 								<span className="text-white drop-shadow-lg">
-									Nurturing Faith, Building the Future
+									Futures Together
 								</span>
 							</h1>
 							<p className="text-lg sm:text-xl lg:text-2xl text-white/90 mb-6 sm:mb-8 leading-relaxed">
-								Where academic excellence meets Qur'anic mastery. Al Hanan Education Centre is a premium Muslim school dedicated to shaping disciplined, excellent leaders with unshakeable faith.
+								Hillside Ways Nursery and Primary School is a quality educational institution dedicated to nurturing young minds and building strong foundations for lifelong learning.
 							</p>
 							<div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
 								<motion.div
@@ -183,7 +159,7 @@ export default function HomePage() {
 									className="w-full sm:w-auto"
 								>
 									<Link
-										href="#why-al-hanan"
+										href="#why-hillside-ways"
 										className="inline-flex w-full sm:w-auto items-center justify-center px-6 sm:px-8 py-3 sm:py-4 border-2 border-white text-white rounded-xl font-semibold hover:bg-white hover:text-emerald-900 transition-all duration-300"
 									>
 										Learn More
@@ -201,22 +177,22 @@ export default function HomePage() {
 							<div className="relative z-10 bg-white/10 dark:bg-gray-800/10 backdrop-blur-lg rounded-3xl p-8 border border-white/20 dark:border-gray-700/50">
 								<div className="grid grid-cols-2 gap-4 mb-6">
 									<div className="bg-emerald-100 dark:bg-emerald-900/30 p-4 rounded-2xl text-center">
-										<div className="text-3xl font-bold text-emerald-600 dark:text-emerald-400">2019</div>
-										<div className="text-sm text-emerald-700 dark:text-emerald-300">Founded</div>
+										<div className="text-3xl font-bold text-emerald-600 dark:text-emerald-400">Nursery</div>
+										<div className="text-sm text-emerald-700 dark:text-emerald-300">to Primary 7</div>
 									</div>
 									<div className="bg-blue-100 dark:bg-blue-900/30 p-4 rounded-2xl text-center">
-										<div className="text-3xl font-bold text-blue-600 dark:text-blue-400">100%</div>
-										<div className="text-sm text-blue-700 dark:text-blue-300">Registered</div>
+										<div className="text-3xl font-bold text-blue-600 dark:text-blue-400">Quality</div>
+										<div className="text-sm text-blue-700 dark:text-blue-300">Education</div>
 									</div>
 								</div>
 								<div className="flex items-center gap-2 mb-4">
 									{[...Array(5)].map((_, i) => (
 										<Star key={i} className="w-6 h-6 text-yellow-400 fill-current" />
 									))}
-									<span className="text-white ml-2">Trusted by African families</span>
+									<span className="text-white ml-2">Trusted by families in Iganga</span>
 								</div>
 								<p className="text-white/90 italic">
-									&quot;Al Hanan learners are far different from ordinary learners.&quot;
+									"Hillside Ways provides excellent education for our children."
 								</p>
 							</div>
 						</motion.div>
@@ -225,7 +201,7 @@ export default function HomePage() {
 			</section>
 
 		{/* Features Section */}
-		<section className="py-12 sm:py-16 md:py-20" id="why-al-hanan">
+		<section className="py-12 sm:py-16 md:py-20" id="why-hillside-ways">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6">
 				<motion.div
 					initial={{ opacity: 0, y: 30 }}
@@ -235,10 +211,10 @@ export default function HomePage() {
 					className="text-center mb-12 sm:mb-16"
 				>
 					<h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6">
-						Why Al Hanan?
+						Why Hillside Ways?
 					</h2>
 					<p className="text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-						We don&apos;t just teach academics—we shape minds through faith, discipline, and excellence. Here&apos;s what sets us apart.
+						We provide quality education that shapes bright futures. Here's what sets us apart.
 					</p>
 				</motion.div>
 
@@ -282,7 +258,7 @@ export default function HomePage() {
 						Our Academic Programs
 					</h2>
 					<p className="text-base sm:text-lg md:text-xl text-white/90 max-w-3xl mx-auto">
-						Comprehensive educational pathways combining Qur'anic mastery, Islamic excellence, and academic achievement.
+						Comprehensive educational programs designed for young learners from nursery to primary school.
 					</p>
 				</motion.div>
 
@@ -338,10 +314,10 @@ export default function HomePage() {
 					className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-lg rounded-3xl p-8 sm:p-12 shadow-2xl border border-white/20 dark:border-gray-700/50 text-center"
 				>
 					<h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6">
-						Ready to Shape Your Child&apos;s Future?
+						Ready to Shape Your Child's Future?
 					</h2>
 					<p className="text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto">
-						Join Al Hanan Education Centre and become part of a faith-centered community dedicated to academic excellence and Qur'anic mastery. Your child&apos;s journey to becoming a disciplined, excellent leader with unshakeable faith starts here.
+						Join Hillside Ways Nursery and Primary School and give your child the best start in education. Enroll today and watch them thrive.
 					</p>
 					<div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
 						<motion.div

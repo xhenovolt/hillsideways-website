@@ -23,7 +23,7 @@ export default function AcademicsPage() {
               Our Academic Programs
             </h1>
             <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Excellence in faith, academics, and character development
+              Excellence in education and character development for young learners
             </p>
           </motion.div>
 
@@ -36,8 +36,8 @@ export default function AcademicsPage() {
             className="relative w-full h-[300px] md:h-[400px] rounded-3xl overflow-hidden shadow-2xl mb-12"
           >
             <Image
-              src="/Alhanan/Alhanan class bloack Ultra wide.jpeg"
-              alt="Al Hanan Education Centre classroom block showcasing modern academic facilities"
+              src="/HillsideWays/Hillside Ways class block Ultra wide.jpeg"
+              alt="Hillside Ways Nursery and Primary School classroom block"
               fill
               className="object-cover"
               sizes="100vw"
@@ -45,17 +45,17 @@ export default function AcademicsPage() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/70 via-transparent to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8">
-              <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">World-Class Academic Facilities</h2>
-              <p className="text-white/90">Modern classrooms designed for optimal learning</p>
+              <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">Quality Learning Environment</h2>
+              <p className="text-white/90">Modern facilities designed for young learners</p>
             </div>
           </motion.div>
 
-          {/* Qur'an Memorization */}
+          {/* Nursery Section */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            id="quran"
+            id="nursery"
             className="bg-white/80 dark:bg-gray-800/80 rounded-3xl p-8 md:p-12 border border-emerald-200 dark:border-emerald-700/50 mb-8"
           >
             <div className="flex items-start gap-4 mb-6">
@@ -64,23 +64,24 @@ export default function AcademicsPage() {
               </div>
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
-                  Qur'an Memorization (Hifdh)
+                  Nursery Section
                 </h2>
                 <p className="text-emerald-600 dark:text-emerald-400 font-semibold mt-1">
-                  Core Program
+                  Ages 3-5 Years
                 </p>
               </div>
             </div>
             <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-              Students memorize and master the entire Holy Qur'an under expert guidance. Our structured curriculum ensures learners complete Hifdh by Primary Seven while maintaining excellent academic performance.
+              Our nursery section provides a strong foundation for young learners through play-based learning, social development, and early literacy and numeracy skills. We create a nurturing environment where children love to learn.
             </p>
             <ul className="space-y-3 text-gray-700 dark:text-gray-300">
               {[
-                "Structured memorization curriculum aligned with national standards",
-                "Daily Qur'an study and revision sessions",
-                "Expert Qur'anic teachers with proven track record",
-                "Individual pace while maintaining high standards",
-                "Hifdh completion by Primary Seven graduation"
+                "Play-based learning activities",
+                "Social skills and emotional development",
+                "Early literacy and numeracy foundation",
+                "Creative arts and music",
+                "Motor skills development",
+                "Health and hygiene habits"
               ].map((item, idx) => (
                 <li key={idx} className="flex items-start gap-3">
                   <span className="text-emerald-600 mt-1">✓</span>
@@ -90,12 +91,12 @@ export default function AcademicsPage() {
             </ul>
           </motion.div>
 
-          {/* Islamic Studies */}
+          {/* Primary Section */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            id="islamic"
+            id="primary"
             className="bg-white/80 dark:bg-gray-800/80 rounded-3xl p-8 md:p-12 border border-blue-200 dark:border-blue-700/50 mb-8"
           >
             <div className="flex items-start gap-4 mb-6">
@@ -104,23 +105,24 @@ export default function AcademicsPage() {
               </div>
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
-                  Islamic Studies
+                  Primary Section
                 </h2>
                 <p className="text-blue-600 dark:text-blue-400 font-semibold mt-1">
-                  Faith & Character Formation
+                  Primary 1-7 (Full National Curriculum)
                 </p>
               </div>
             </div>
             <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-              Deep theological knowledge and Islamic principles integrated into daily learning, shaping learners into disciplined, excellent individuals grounded in Islamic values.
+              Our primary section delivers a comprehensive curriculum that prepares students for secondary education. We focus on academic excellence while developing character and life skills.
             </p>
             <ul className="space-y-3 text-gray-700 dark:text-gray-300">
               {[
-                "Islamic theology and jurisprudence",
-                "Qur'anic interpretation (Tafsir) basics",
-                "Islamic history and civilization",
-                "Character and values development through Islamic principles",
-                "Integration of Islamic values in all subjects"
+                "English language mastery",
+                "Mathematics and Science excellence",
+                "Social Studies and Geography",
+                "Creative Arts and Physical Education",
+                "Character development and values",
+                "Digital literacy basics"
               ].map((item, idx) => (
                 <li key={idx} className="flex items-start gap-3">
                   <span className="text-blue-600 mt-1">✓</span>
@@ -130,12 +132,12 @@ export default function AcademicsPage() {
             </ul>
           </motion.div>
 
-          {/* Primary Education */}
+          {/* Curriculum */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            id="primary"
+            id="curriculum"
             className="bg-white/80 dark:bg-gray-800/80 rounded-3xl p-8 md:p-12 border border-cyan-200 dark:border-cyan-700/50"
           >
             <div className="flex items-start gap-4 mb-6">
@@ -144,23 +146,24 @@ export default function AcademicsPage() {
               </div>
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
-                  Primary Education Excellence
+                  Our Curriculum
                 </h2>
                 <p className="text-cyan-600 dark:text-cyan-400 font-semibold mt-1">
-                  Classes 1-7 (Full National Curriculum)
+                  Aligned with National Standards
                 </p>
               </div>
             </div>
             <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-              Rigorous academics delivered with excellence. English and Arabic proficiency, combined with Mathematics, Science, and Social Studies, prepare learners for secondary education success.
+              Our curriculum is designed to meet national education standards while providing quality education that prepares students for success in secondary school and beyond.
             </p>
             <ul className="space-y-3 text-gray-700 dark:text-gray-300">
               {[
-                "English language mastery and fluency (Mother tongue of instruction)",
-                "Arabic language strong proficiency",
-                "Mathematics and Science excellence",
-                "Social studies with Islamic perspective",
-                "Physical education, arts, and digital literacy"
+                "Full coverage of national curriculum subjects",
+                "Qualified and experienced teachers",
+                "Regular assessments and progress monitoring",
+                "After-school support programs",
+                "Extracurricular activities and sports",
+                "Parent-teacher collaboration"
               ].map((item, idx) => (
                 <li key={idx} className="flex items-start gap-3">
                   <span className="text-cyan-600 mt-1">✓</span>

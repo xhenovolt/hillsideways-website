@@ -20,10 +20,10 @@ export default function AdmissionsPage() {
             className="text-center mb-12"
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6">
-              Join Al Hanan
+              Join Hillside Ways
             </h1>
             <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Begin your journey in academic excellence and Qur'anic mastery
+              Begin your child's journey in quality education
             </p>
           </motion.div>
 
@@ -37,7 +37,7 @@ export default function AdmissionsPage() {
               {
                 step: "2",
                 title: "Assessment",
-                description: "Child assessment in English, Mathematics, and Islamic values"
+                description: "Child assessment in English and Mathematics"
               },
               {
                 step: "3",
@@ -95,7 +95,7 @@ export default function AdmissionsPage() {
                 <Phone className="w-5 h-5" />
                 Call Us
               </a>
-              <a href="mailto:info@alhanan.ug" className="inline-flex items-center justify-center gap-2 px-6 py-3 border-2 border-emerald-600 text-emerald-600 rounded-lg font-semibold hover:bg-emerald-50 dark:hover:bg-emerald-900/20 transition">
+              <a href="mailto:info@hillsideways.ug" className="inline-flex items-center justify-center gap-2 px-6 py-3 border-2 border-emerald-600 text-emerald-600 rounded-lg font-semibold hover:bg-emerald-50 dark:hover:bg-emerald-900/20 transition">
                 <Mail className="w-5 h-5" />
                 Email Us
               </a>

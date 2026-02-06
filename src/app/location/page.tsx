@@ -19,10 +19,10 @@ export default function LocationPage() {
             className="text-center mb-16"
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6">
-              Visit Al Hanan
+              Visit Hillside Ways
             </h1>
             <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Located in Iganga, Uganda. We welcome parents and prospective families.
+              Located on Kaliro Road, Iganga Municipality. We welcome parents and prospective families.
             </p>
           </motion.div>
 
@@ -40,7 +40,7 @@ export default function LocationPage() {
                 style={{ border: 0 }}
                 loading="lazy"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.8223456789012!2d33.501018635005195!3d0.5892956164654007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177e6789abcdef01%3A0x1234567890abcdef!2sBulubandi%2C%20Nakigo%2C%20Iganga!5e0!3m2!1sen!2sug!4v1234567890"
-                title="Al Hanan Education Centre Location"
+                title="Hillside Ways Nursery and Primary School Location"
               />
             </motion.div>
 
@@ -60,12 +60,8 @@ export default function LocationPage() {
                       School Location
                     </h3>
                     <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                      Bulubandi, Nakigo, Iganga District<br />
-                      Bulubandi–Kiboyo Road<br />
+                      Kaliro Road, Iganga Municipality<br />
                       Uganda
-                    </p>
-                    <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
-                      Coordinates: 0°35'21.5"N 33°30'03.7"E
                     </p>
                   </div>
                 </div>
@@ -94,8 +90,8 @@ export default function LocationPage() {
                     <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
                       Email
                     </h3>
-                    <a href="mailto:info@alhanan.ug" className="text-emerald-600 hover:text-emerald-700 font-semibold">
-                      info@alhanan.ug
+                    <a href="mailto:info@hillsideways.ug" className="text-emerald-600 hover:text-emerald-700 font-semibold">
+                      info@hillsideways.ug
                     </a>
                   </div>
                 </div>

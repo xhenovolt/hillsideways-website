@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Star, Quote, CheckCircle, ArrowRight, Heart, Trophy, GraduationCap, Users, Award } from "lucide-react";
+import Image from "next/image";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 
@@ -87,23 +88,36 @@ export default function TestimonialsPage() {
 		<main className="min-h-screen bg-gradient-to-br from-slate-50 to-emerald-50 dark:from-gray-900 dark:to-emerald-900">
 			<Navbar />
 
-			{/* Hero Section */}
-			<section className="pt-32 pb-16">
-				<div className="max-w-7xl mx-auto px-6">
+			{/* Hero Section with Cover Image */}
+			<section className="pt-32 pb-16 overflow-hidden relative">
+				{/* Hero Background Image */}
+				<div className="absolute inset-0 z-0">
+					<Image
+						src="/HillsideWays/Hillsideways  cover.jpg"
+						alt="Hillside Ways Nursery and Primary School campus"
+						fill
+						priority
+						className="object-cover"
+						sizes="100vw"
+						quality={85}
+					/>
+					<div className="absolute inset-0 bg-gradient-to-r from-emerald-900/80 via-emerald-800/60 to-blue-900/60" />
+				</div>
+				<div className="max-w-7xl mx-auto px-6 relative z-10">
 					<motion.div
 						initial={{ opacity: 0, y: 30 }}
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.8 }}
 						className="text-center max-w-4xl mx-auto"
 					>
-						<div className="inline-flex items-center gap-3 bg-emerald-100 dark:bg-emerald-900/30 px-6 py-3 rounded-full mb-6">
+						<div className="inline-flex items-center gap-3 bg-emerald-100/90 dark:bg-emerald-900/30 px-6 py-3 rounded-full mb-6">
 							<GraduationCap className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />
 							<span className="font-semibold text-emerald-700 dark:text-emerald-300">Hillside Ways Family</span>
 						</div>
-						<h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-emerald-600 via-blue-600 to-cyan-600 bg-clip-text text-transparent mb-6">
+						<h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
 							What Our Parents Say
 						</h1>
-						<p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
+						<p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
 							Hear from parents and community members about their experience with Hillside Ways 
 							Nursery and Primary School.
 						</p>

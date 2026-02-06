@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -10,18 +11,31 @@ export default function LocationPage() {
     <main className="min-h-screen bg-gradient-to-br from-slate-50 to-emerald-50 dark:from-gray-900 dark:to-emerald-900">
       <Navbar />
       
-      <section className="pt-24 pb-12 md:pt-32 md:pb-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+      <section className="pt-24 pb-12 md:pt-32 md:pb-20 overflow-hidden relative">
+        {/* Hero Background Image */}
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/HillsideWays/Hillsideways  cover.jpg"
+            alt="Hillside Ways Nursery and Primary School campus"
+            fill
+            priority
+            className="object-cover"
+            sizes="100vw"
+            quality={85}
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-emerald-900/80 via-emerald-800/60 to-blue-900/60" />
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="text-center mb-16"
           >
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
               Visit Hillside Ways
             </h1>
-            <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+            <p className="text-lg sm:text-xl text-white/90 max-w-3xl mx-auto">
               Located on Kaliro Road, Iganga Municipality. We welcome parents and prospective families.
             </p>
           </motion.div>

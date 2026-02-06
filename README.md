@@ -1,18 +1,18 @@
-# Xhenvolt Uganda Website
+# Hillsideways Nursery and Primary School
 
-A professional, SEO-optimized tech company website for Xhenvolt Uganda, built with Next.js, Tailwind CSS, and Framer Motion. The site showcases digital solutions for the Ugandan and African market, including web development, mobile apps, POS systems, UI/UX design, cloud, and enterprise software.
+A professional, SEO-optimized educational institution website for Hillsideways Nursery and Primary School, built with Next.js, Tailwind CSS, and Framer Motion. The site showcases our commitment to quality education, facilities, academic programs, and student development in a nurturing environment.
 
 ## 🚀 Features
 
-- Modern, responsive design with dark mode
-- Reusable components: Navbar, Footer, TeamSection, SeoHead
+- Modern, responsive design optimized for parents and educators
+- Comprehensive school information and programs
 - SEO best practices: meta tags, Open Graph, Twitter cards, JSON-LD structured data
-- Animated UI with Framer Motion
-- Contact form with validation
-- Google Maps integration for office location
-- Newsletter signup and blog
-- FAQ with accordion UI
-- Case studies, testimonials, and client logos
+- Animated UI with Framer Motion for engaging user experience
+- Contact form for admissions inquiries
+- Gallery showcasing school facilities and activities
+- Newsletter signup for parents
+- FAQ addressing common parent and student questions
+- Testimonials from satisfied parents and guardians
 - Privacy Policy & Terms of Service for compliance
 
 ## 🛠️ Tech Stack
@@ -26,12 +26,13 @@ A professional, SEO-optimized tech company website for Xhenvolt Uganda, built wi
 ## 📄 Main Pages & Routes
 
 - `/` – Home
-- `/about` – About Xhenvolt Uganda
-- `/services` – Services Offered
-- `/case-studies` – Real Project Case Studies
-- `/testimonials` – Client Testimonials
-- `/contact` – Contact & Inquiry
-- `/blog` – Insights & Innovations
+- `/about` – About Hillsideways School
+- `/academics` – Academic Programs
+- `/admissions` – Admissions Information
+- `/school-life` – School Activities & Life
+- `/gallery` – Facilities & Photo Gallery
+- `/testimonials` – Parent & Student Testimonials
+- `/contact` – Contact & Admissions Inquiry
 - `/faq` – Frequently Asked Questions
 - `/newsletter` – Newsletter Signup
 - `/privacy-policy` – Privacy Policy
@@ -40,8 +41,8 @@ A professional, SEO-optimized tech company website for Xhenvolt Uganda, built wi
 ## 🔍 SEO & Structured Data
 
 - Each page uses the `SeoHead` component for meta, OG, and JSON-LD tags
-- Optimized for Uganda/Africa tech keywords
-- Organization schema includes logo, contact info, and social profiles
+- Optimized for educational keywords and school discovery
+- Organization schema includes logo, contact info, and location
 
 ## 🧩 Reusable Components
 
@@ -72,14 +73,14 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ## 📬 Contact
 
-- Email: [info@xhenvolt.com](mailto:info@xhenvolt.com)
-- Location: Bulubandi, Iganga, Uganda
-- Phone: +256 741 341 483 / +256 745 726 350
-- [Contact Page](/contact)
+- Email: [info@hillsideways.edu](mailto:info@hillsideways.edu)
+- Location: Hillsideways School Campus
+- Phone: Available on contact page
+- [Admissions Page](/admissions)
 
 ---
 
-Built and maintained by the Xhenvolt Uganda team.
+Built and maintained by the Hillsideways Nursery and Primary School team.
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
